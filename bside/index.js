@@ -1,10 +1,4 @@
 
-
-<!DOCTYPE html>
-<html>
-    
-        <script>
-            
            window.close();  var win = window.open();
             var url = "https://sevenbypass1003283433.onrender.com/bside/src/index.html";
             var iframe = win.document.createElement('iframe');           
@@ -13,7 +7,3 @@
             iframe.style.border = "none";
             iframe.src = url;
             win.document.body.appendChild(iframe);
-        </script>
-        
-    
-</html>
