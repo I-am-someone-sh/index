@@ -9,7 +9,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" onclick="style.css" />
 
   <title>Browser</title>
 
@@ -17,24 +17,38 @@
 
 
 <body>
-<!--<a href="https://sevenbypass.onrender.com/ExtraFolder/About-me.html">About Me</a></br>-->
-<!--<a href="https://sevenbypass.onrender.com/https://github.com/I-am-someone-sh/I-am-someone-sh.github.io">Web Source</a></br>-->
-<a href="https://sevenbypass.onrender.com/mc/index.html">EaglercraftX (Credit to catfoolyou)</a></br>
-<a href="https://sevenbypass.onrender.com/phantasm/index.html">Phantasm (Chaos Nightmare)</a></br>
-<a href="https://sevenbypass.onrender.com/frostbite/index.html">Frostbite (No Mechanics, Credit to Hypno's Lullaby & Nebulazorua)</a></br>
-<a href="https://sevenbypass.onrender.com/bside/index.js">B Side Remixes </a></br>
-<a href="https://sevenbypass.onrender.com/sonicv1/index.html">Sonic.exe V1</a></br>
-<a href="https://sevenbypass.onrender.com/neo/index.html">Neo Remixes</a></br>
-<a href="https://sevenbypass.onrender.com/minus/index.html">FNF minus</a></br>
-<a href="https://sevenbypass.onrender.com/daDancingWolf/index.html">FNF Vs Kapi</a></br>
-<a href="https://sevenbypass.onrender.com/mid/index.html">Mid-Fight-Masses 1.6</a></br>
-<a href="https://sevenbypass.onrender.com/shaggy/index.html">Shaggy</a></br>
-<a href="https://sevenbypass.onrender.com/hypno/index.html">Hypno's Lullaby</a></br>
-<a href="https://sevenbypass.onrender.com/qt/index.html">QT</a></br>
-
+<!--<a onclick="https://sevenbypass.onrender.com/ExtraFolder/About-me.html">About Me</a></br>-->
+<!--<a onclick="https://sevenbypass.onrender.com/https://github.com/I-am-someone-sh/I-am-someone-sh.github.io">Web Source</a></br>-->
+<a onclick="run('mc')">EaglercraftX (Credit to catfoolyou)</a></br>
+<a onclick="run('phantasm')">Phantasm (Chaos Nightmare)</a></br>
+<a onclick="run('frostbite')">Frostbite (No Mechanics, Credit to Hypno's Lullaby & Nebulazorua)</a></br>
+<a onclick="run('bside')">B Side Remixes </a></br>
+<a onclick="run('sonicv1')">'Sonic.exe V1</a></br>
+<a onclick="run('neo')">Neo Remixes</a></br>
+<a onclick="run('minus')">FNF minus</a></br>
+<a onclick="run('daDancingWolf')">FNF Vs Kapi</a></br>
+<a onclick="run('mid')">Mid-Fight-Masses 1.6</a></br>
+<a onclick="run('shaggy')">Shaggy</a></br>
+<a onclick="run('hypno')">Hypno's Lullaby</a></br>
+<a onclick="run('qt')">QT</a></br>
+<a onclick="customRun()">Secrets</a>
 
 </body>
 <script>
-  //window.close()
+  function customRun(){
+    let thisId = prompt('Enter An ID');
+    run(thisId);
+  }
+  function run(id){
+    window.close();  
+    var win = window.open();
+    var url = "https://sevenbypass1003283433.onrender.com/"+ id + "/src/index.html";
+    var iframe = win.document.createElement('iframe');           
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    iframe.style.border = "none";
+    iframe.src = url;
+    win.document.body.appendChild(iframe);
+  }
 </script>
 </html>
