@@ -1,0 +1,12 @@
+function returnDescription()
+    return "Fades the HUD";
+
+function eventFunction(params) {
+	
+}
+
+function initFunction(params) {
+    PlayState.camHUD.alpha = 0;
+	for (i in PlayState.strumHUD)
+		i.alpha = 0;
+}

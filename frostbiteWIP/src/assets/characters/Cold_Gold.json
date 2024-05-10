@@ -1,0 +1,186 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "GOLD IDLE"
+		},
+		{
+			"offsets": [
+				-8,
+				-22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "GOLD RIGHT POSE MISS"
+		},
+		{
+			"offsets": [
+				42,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "GOLD LEFT POSE MISS"
+		},
+		{
+			"offsets": [
+				48,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "GOLD MISS UP"
+		},
+		{
+			"offsets": [
+				-76,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "GOLD DOWN POSE MISS"
+		},
+		{
+			"offsets": [
+				82,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "GOLD LEFT POSE"
+		},
+		{
+			"offsets": [
+				-60,
+				-37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "GOLD DOWN POSE"
+		},
+		{
+			"offsets": [
+				38,
+				32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "GOLD UP POSE"
+		},
+		{
+			"offsets": [
+				-9,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "GOLD RIGHT POSE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cold_Gold",
+	"position": [
+		0,
+		160
+	],
+	"healthicon": "cold-gold",
+	"flip_x": true,
+	"healthbar_colors": [
+		234,
+		216,
+		255
+	],
+	"camera_position": [
+		-600,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

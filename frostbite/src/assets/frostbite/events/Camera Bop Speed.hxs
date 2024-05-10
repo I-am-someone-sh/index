@@ -1,0 +1,6 @@
+function returnDescription()
+    return "Basically just does what the name says\nvalue 1: intensity\nvalue 2: speed";
+
+function eventFunction(params) {
+	
+}

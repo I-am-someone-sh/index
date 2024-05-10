@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "DEAD RED IDLE"
+		},
+		{
+			"offsets": [
+				106,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "DEAD RED left"
+		},
+		{
+			"offsets": [
+				11,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DEAD RED down"
+		},
+		{
+			"offsets": [
+				7,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "DEAD RED up"
+		},
+		{
+			"offsets": [
+				-52,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "DEAD RED right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mt_silver_red_dead",
+	"position": [
+		-273,
+		13
+	],
+	"healthicon": "red-dead",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		55,
+		55
+	],
+	"camera_position": [
+		-400,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}
